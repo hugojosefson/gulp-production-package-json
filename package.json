@@ -1,6 +1,6 @@
 {
   "name": "gulp-production-package-json",
-  "version": "1.0.2",
+  "version": "1.0.3-alpha",
   "description": "Generates a package.json for production.",
   "main": "index.js",
   "scripts": {
