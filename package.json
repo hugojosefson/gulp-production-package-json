@@ -1,0 +1,32 @@
+{
+  "name": "gulp-production-package-json",
+  "version": "1.0.0-alpha",
+  "description": "Generates a package.json for production.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint index.js lib/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugojosefson/gulp-production-package-json.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulp-plugin",
+    "build",
+    "production",
+    "package.json"
+  ],
+  "author": "Hugo Josefson <hugo@josefson.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugojosefson/gulp-production-package-json/issues"
+  },
+  "homepage": "https://github.com/hugojosefson/gulp-production-package-json",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.10"
+  }
+}
