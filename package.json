@@ -1,6 +1,6 @@
 {
   "name": "gulp-production-package-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates a package.json for production.",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/hugojosefson/gulp-production-package-json",
   "dependencies": {
+    "gulp-replace": "^0.5.0",
+    "lazypipe": "^0.2.2",
     "lodash": "^2.4.1"
   },
   "devDependencies": {
