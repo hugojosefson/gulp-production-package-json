@@ -14,6 +14,6 @@ indent_style = space
 indent_size = 4
 
 # Indentation override for files handled by their tools
-[{package.json,bower.json}]
+[{package.json,bower.json,package-*.json}]
 indent_style = space
 indent_size = 2

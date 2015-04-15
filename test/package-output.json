@@ -1,10 +1,10 @@
 {
-  "name": "gulp-production-package-json",
-  "version": "1.0.3-alpha",
-  "description": "Generates a package.json for production.",
-  "main": "index.js",
+  "name": "the-package-name",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Some server. Built from Source code for some server.",
   "scripts": {
-    "test": "jshint *.js lib/*.js test/*.js && mocha"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -29,9 +29,6 @@
     "lodash": "^2.4.1",
     "vinyl-buffer": "^1.0.0"
   },
-  "devDependencies": {
-    "chai": "^2.2.0",
-    "jshint": "^2.5.10",
-    "mocha": "^2.2.4"
-  }
+  "devDependencies": {},
+  "main": "server.js"
 }
