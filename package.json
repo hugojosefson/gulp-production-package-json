@@ -24,14 +24,14 @@
   },
   "homepage": "https://github.com/hugojosefson/gulp-production-package-json",
   "dependencies": {
-    "gulp-replace": "^0.5.0",
-    "lazypipe": "^0.2.2",
-    "lodash": "^2.4.1",
+    "gulp-replace": "^1.0.0",
+    "lazypipe": "^1.0.2",
+    "lodash": "^4.17.11",
     "vinyl-buffer": "^1.0.0"
   },
   "devDependencies": {
-    "chai": "^2.2.0",
+    "chai": "^4.2.0",
     "jshint": "^2.5.10",
-    "mocha": "^2.2.4"
+    "mocha": "^6.0.2"
   }
 }
