@@ -4,7 +4,9 @@
   "description": "Generates a package.json for production.",
   "main": "index.js",
   "scripts": {
-    "test": "jshint *.js lib/*.js test/*.js && mocha"
+    "test": "jshint *.js lib/*.js test/*.js && mocha",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -27,11 +29,13 @@
     "gulp-replace": "^1.0.0",
     "lazypipe": "^1.0.2",
     "lodash": "^4.17.14",
-    "vinyl-buffer": "^1.0.0"
+    "vinyl-buffer": "^1.0.0",
+    "snyk": "^1.319.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "jshint": "^2.5.10",
     "mocha": "^6.0.2"
-  }
+  },
+  "snyk": true
 }
